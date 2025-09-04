@@ -9,3 +9,5 @@ export const createCategorySchema = {
 const createCategoryObject = z.object(createCategorySchema)
 
 export type CreateCategoryDTO = z.infer<typeof createCategoryObject>
+
+// DTO's = Dados de Transições em Objetos
